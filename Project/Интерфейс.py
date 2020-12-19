@@ -4,6 +4,7 @@ from project_button_1 import *
 from project_button_2 import *
 
 
+
 blank_space = ' '
 st = 0
 
@@ -47,6 +48,7 @@ def main():
 	root['bg'] = '#FFFFE0'
 	root.title(8*blank_space + 'Main Window!')
 	root.resizable(width = False, height = False)
+	root.iconbitmap('Project_icon.ico')
 
 	text = tk.Label(text = 'Выберите режим', bg = '#FFDEAD', font = '28',
 					width = 20)
