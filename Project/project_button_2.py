@@ -40,6 +40,7 @@ def btn_2(f=0):
 
 			answer = mb.askyesno('Проверьте введенные данные!', 'Вы уверенны, что ввели данные верно?')
 			if answer:
+				mb.showwarning(';(', 'Этот режим временно не доступен.')
 				print('Функция - ' + function_get)
 				print('Погрешность - ' + error_get)
 				print('Точка разложения - ' + point_get)
